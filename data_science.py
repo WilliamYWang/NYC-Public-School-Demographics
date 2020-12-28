@@ -84,7 +84,7 @@ app.layout = html.Div([
 ])
 
 index_page = html.Div([
-    html.H1('Lab 3', style={'text-align': 'center'}),
+    html.H1('Advanced Displays', style={'text-align': 'center'}),
     dcc.Link('Navigate to Correlation Matrix', href='/correlation-matrix'),
     html.Br(),
     dcc.Link('Navigate to Scatter Plot Matrix', href='/scatter-plot-matrix'),

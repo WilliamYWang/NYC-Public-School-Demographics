@@ -13,7 +13,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 df = pd.read_csv('dataset4.csv')
 
 app.layout = html.Div([
-    html.H1('Lab 5', style={'text-align': 'center'}),
+    html.H1('Interactive Dashboard', style={'text-align': 'center'}),
 
     html.Div([
         dcc.Graph(

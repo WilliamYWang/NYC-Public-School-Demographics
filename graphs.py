@@ -90,7 +90,7 @@ def update_figure3(xaxis, yaxis):
     return figure
 
 app.layout = html.Div([
-    html.H1('Lab 2', style={'text-align': 'center'}),
+    html.H1('Basic Visualizations', style={'text-align': 'center'}),
 
     dcc.Dropdown(id='dropdown1', options=[
         {'label': 'Year', 'value': 'year'},
