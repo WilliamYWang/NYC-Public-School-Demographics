@@ -8,3 +8,5 @@ Cosists of Three Pages:
 1. Basic Visualizations
 2. Advanced Displays
 3. Interactive Dashboard
+
+Simply run '*python webapp.py*' to see the web application
