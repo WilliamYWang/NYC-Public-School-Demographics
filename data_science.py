@@ -5,12 +5,9 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
 from dash.dependencies import Input, Output
 from sklearn.metrics import pairwise_distances
-from sklearn.metrics import euclidean_distances
 from sklearn.manifold import MDS
-from scipy.spatial.distance import cdist
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
