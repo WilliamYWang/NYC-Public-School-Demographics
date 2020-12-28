@@ -12,7 +12,7 @@ from sklearn.manifold import MDS
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, suppress_callback_exceptions=True)
 
 dataset1 = pd.read_csv('dataset1.csv')
 dataset2 = pd.read_csv('dataset2.csv')
